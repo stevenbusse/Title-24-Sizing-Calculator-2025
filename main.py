@@ -157,13 +157,11 @@ def main():
     # User inputs
     cfa = float(input("Enter conditioned floor area (CFA) in ft²: "))
     sara = float(input("Enter SARA in ft²: "))
-    multiple_types = input("Are there multiple building types? (yes/no): ").lower().strip() == 'yes'
-    
+    num_types = int(input("Enter number of different building types (1 or more): "))
     building_types = []
     proportions = []
     
-    if multiple_types:
-        num_types = int(input("How many different building types? "))
+    if num_types > 0:
         total_proportion = 0
         
         for i in range(num_types):
