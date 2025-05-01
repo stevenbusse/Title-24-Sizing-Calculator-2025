@@ -161,6 +161,7 @@ def main():
     building_types = []
     proportions = []
     
+    total_proportion = 0
     if num_types > 0:
         if num_types == 1:
             building_type = input("Enter building type (match table name): ")
@@ -169,8 +170,8 @@ def main():
                 building_type = input("Enter building type (match table name): ")
             building_types = [building_type]
             proportions = [1.0]
+            total_proportion = 1.0
         else:
-            total_proportion = 0
             for i in range(num_types):
                 print(f"\nBuilding Type {i + 1}:")
                 building_type = input("Enter building type (match table name): ")
