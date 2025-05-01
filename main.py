@@ -200,14 +200,8 @@ def main():
         zipcode = input("Enter zipcode: ")
     
     climate_zone = next(entry["Building CZ"] for entry in zipcode_to_zone if str(entry["Zip Code"]) == str(zipcode))
-    roof_slope = input("Enter roof slope (Low Slope/Steep Slope): ").strip()
-    while roof_slope.lower() not in ["low slope", "steep slope"]:
-        print("Invalid roof slope. Please enter 'Low Slope' or 'Steep Slope'.")
-        roof_slope = input("Enter roof slope (Low Slope/Steep Slope): ").strip()
     c = float(input("Enter BESS round-trip efficiency (e.g. 0.90): "))
-
-    sara_input = input("Do you have Solar Access Roof Area (SARA)? (yes/no): ").strip().lower()
-    sara = float(input("Enter SARA in ft²: ")) if sara_input == "yes" else None
+    sara = float(input("Enter SARA in ft²: "))
 
     # Calculate weighted results for each building type
     full_kw_pv_dc = 0
@@ -223,7 +217,7 @@ def main():
         full_kw_pv_dc += type_full_kw
 
         # Step 2: Final installed PV (adjusted by SARA if provided)
-        type_installed_kw, _ = calculate_pv_system_size(cfa * proportion, building_type, climate_zone, sara, roof_slope)
+        type_installed_kw, _ = calculate_pv_system_size(cfa * proportion, building_type, climate_zone, sara, "Low Slope")
         kw_pv_dc_installed += type_installed_kw
 
         # Step 3: BESS Energy Capacity
