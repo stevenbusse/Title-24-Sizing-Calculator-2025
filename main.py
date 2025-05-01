@@ -160,10 +160,15 @@ def main():
     while building_type not in table_140_10_A.keys():
         print("Invalid building type. Please enter a valid building type from the table.")
         building_type = input("Enter building type (match table name): ")
-    climate_zone = int(input("Enter climate zone (1–16): "))
-    while climate_zone < 1 or climate_zone > 16:
-        print("Invalid climate zone. Please enter a value between 1 and 16.")
-        climate_zone = int(input("Enter climate zone (1–16): "))
+    with open('climate_zones.json', 'r') as f:
+        zipcode_to_zone = json.load(f)
+    
+    zipcode = input("Enter zipcode: ")
+    while zipcode not in zipcode_to_zone:
+        print("Invalid or unsupported zipcode. Please enter a valid zipcode.")
+        zipcode = input("Enter zipcode: ")
+    
+    climate_zone = zipcode_to_zone[zipcode]
     roof_slope = input("Enter roof slope (Low Slope/Steep Slope): ").strip()
     while roof_slope.lower() not in ["low slope", "steep slope"]:
         print("Invalid roof slope. Please enter 'Low Slope' or 'Steep Slope'.")
