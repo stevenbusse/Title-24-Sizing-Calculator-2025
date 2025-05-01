@@ -213,6 +213,7 @@ def main():
     full_kw_pv_dc = 0
     kw_pv_dc_installed = 0
     kwh_batt = 0
+    bess_exempt_msg = None
     
     for building_type, proportion in zip(building_types, proportions):
         # Step 1: Full PV capacity (from Eq. 140.10-A)
