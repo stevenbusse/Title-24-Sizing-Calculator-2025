@@ -156,10 +156,41 @@ def calculate_bess_power_capacity(kwh_batt):
 def main():
     # User inputs
     cfa = float(input("Enter conditioned floor area (CFA) in ft²: "))
-    building_type = input("Enter building type (match table name): ")
-    while building_type not in table_140_10_A.keys():
-        print("Invalid building type. Please enter a valid building type from the table.")
+    multiple_types = input("Are there multiple building types? (yes/no): ").lower().strip() == 'yes'
+    
+    building_types = []
+    proportions = []
+    
+    if multiple_types:
+        num_types = int(input("How many different building types? "))
+        total_proportion = 0
+        
+        for i in range(num_types):
+            print(f"\nBuilding Type {i + 1}:")
+            building_type = input("Enter building type (match table name): ")
+            while building_type not in table_140_10_A.keys():
+                print("Invalid building type. Please enter a valid building type from the table.")
+                building_type = input("Enter building type (match table name): ")
+            
+            proportion = float(input(f"Enter proportion for {building_type} (0-1): "))
+            while proportion < 0 or proportion > 1:
+                print("Invalid proportion. Please enter a value between 0 and 1.")
+                proportion = float(input(f"Enter proportion for {building_type} (0-1): "))
+            
+            total_proportion += proportion
+            building_types.append(building_type)
+            proportions.append(proportion)
+        
+        if abs(total_proportion - 1.0) > 0.001:
+            print("Warning: Proportions do not sum to 1. Normalizing values...")
+            proportions = [p/total_proportion for p in proportions]
+    else:
         building_type = input("Enter building type (match table name): ")
+        while building_type not in table_140_10_A.keys():
+            print("Invalid building type. Please enter a valid building type from the table.")
+            building_type = input("Enter building type (match table name): ")
+        building_types = [building_type]
+        proportions = [1.0]
     with open('climate_zones.json', 'r') as f:
         zipcode_to_zone = json.load(f)
     
@@ -178,20 +209,29 @@ def main():
     sara_input = input("Do you have Solar Access Roof Area (SARA)? (yes/no): ").strip().lower()
     sara = float(input("Enter SARA in ft²: ")) if sara_input == "yes" else None
 
-    # Step 1: Full PV capacity (from Eq. 140.10-A)
-    full_kw_pv_dc, pv_exempt_msg = calculate_pv_system_size(cfa, building_type, climate_zone)
+    # Calculate weighted results for each building type
+    full_kw_pv_dc = 0
+    kw_pv_dc_installed = 0
+    kwh_batt = 0
+    
+    for building_type, proportion in zip(building_types, proportions):
+        # Step 1: Full PV capacity (from Eq. 140.10-A)
+        type_full_kw, pv_exempt_msg = calculate_pv_system_size(cfa * proportion, building_type, climate_zone)
+        if pv_exempt_msg:
+            print(f"Warning for {building_type}: {pv_exempt_msg}")
+            continue
+        full_kw_pv_dc += type_full_kw
 
-    if pv_exempt_msg:
-        print(pv_exempt_msg)
-        return
+        # Step 2: Final installed PV (adjusted by SARA if provided)
+        type_installed_kw, _ = calculate_pv_system_size(cfa * proportion, building_type, climate_zone, sara, roof_slope)
+        kw_pv_dc_installed += type_installed_kw
 
-    # Step 2: Final installed PV (adjusted by SARA if provided)
-    kw_pv_dc_installed, _ = calculate_pv_system_size(cfa, building_type, climate_zone, sara, roof_slope)
-
-    # Step 3: BESS Energy Capacity
-    kwh_batt, bess_exempt_msg = calculate_bess_energy_capacity(
-        cfa, building_type, climate_zone, c, sara, kw_pv_dc_installed, full_kw_pv_dc
-    )
+        # Step 3: BESS Energy Capacity
+        type_kwh_batt, bess_exempt_msg = calculate_bess_energy_capacity(
+            cfa * proportion, building_type, climate_zone, c, sara, type_installed_kw, type_full_kw
+        )
+        if not bess_exempt_msg:
+            kwh_batt += type_kwh_batt
     if bess_exempt_msg:
         print(bess_exempt_msg)
         return
