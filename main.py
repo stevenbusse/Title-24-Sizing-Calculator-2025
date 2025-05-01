@@ -136,6 +136,9 @@ def calculate_bess_energy_capacity(cfa, building_type, climate_zone, c, sara, kw
     if b is None:
         return 0, "BESS system exempt: Not Required per Table 140.10-B"
 
+    if full_kw_pv_dc == 0:
+        return 0, "BESS system exempt: No PV system required"
+
     if kw_pv_dc < 0.15 * full_kw_pv_dc:
         return 0, "BESS system exempt: PV system < 15% of Eq. 140.10-A capacity"
 
