@@ -1,59 +1,10778 @@
-
-{
-  "90001": 8,
-  "90002": 8,
-  "90003": 8,
-  "90004": 9,
-  "90005": 9,
-  "90006": 9,
-  "90007": 8,
-  "90008": 8,
-  "90009": 6,
-  "90010": 9,
-  "90011": 8,
-  "90012": 9,
-  "90013": 9,
-  "90014": 9,
-  "90015": 9,
-  "90016": 8,
-  "90017": 9,
-  "90018": 8,
-  "90019": 9,
-  "90020": 9,
-  "90021": 9,
-  "90022": 9,
-  "90023": 9,
-  "90024": 9,
-  "90025": 6,
-  "90026": 9,
-  "90027": 9,
-  "90028": 9,
-  "90029": 9,
-  "90030": 8,
-  "94102": 3,
-  "94103": 3,
-  "94104": 3,
-  "94105": 3,
-  "94107": 3,
-  "94108": 3,
-  "94109": 3,
-  "94110": 3,
-  "94111": 3,
-  "94112": 3,
-  "94114": 3,
-  "94115": 3,
-  "94116": 3,
-  "94117": 3,
-  "94118": 3,
-  "94121": 3,
-  "94122": 3,
-  "94123": 3,
-  "94124": 3,
-  "94127": 3,
-  "94129": 3,
-  "94130": 3,
-  "94131": 3,
-  "94132": 3,
-  "94133": 3,
-  "94134": 3
-}
+[
+  {
+    "Zip Code": 90001,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90002,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90003,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90004,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90005,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90006,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90007,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90008,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90009,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90010,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90011,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90012,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90013,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90014,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90015,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90016,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90017,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90018,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90019,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90020,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90021,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90022,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90023,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90024,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90025,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90026,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90027,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90028,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90029,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90030,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90031,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90032,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90033,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90034,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90035,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90036,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90037,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90038,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90039,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90040,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90041,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90042,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90043,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90044,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90045,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90046,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90047,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90048,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90049,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90050,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90051,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90052,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90053,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90054,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90055,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90056,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90057,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90058,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90059,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90060,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90061,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90062,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90063,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90064,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90065,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90066,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90067,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90068,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90069,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90070,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90071,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90072,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90073,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90074,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90075,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90076,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90077,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90078,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90079,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90080,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90081,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90082,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90083,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90084,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90086,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90087,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90088,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90089,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90091,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90093,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90094,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90095,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90096,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90097,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90099,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90101,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90102,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90103,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90174,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90185,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90201,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90202,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90209,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90210,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90211,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90212,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90213,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90220,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90221,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90222,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90223,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90224,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90230,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90231,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90232,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90233,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90239,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90240,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90241,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90242,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90245,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90247,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90248,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90249,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90250,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90251,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90254,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90255,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90260,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90261,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90262,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90263,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90264,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90265,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90266,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90267,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90270,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90272,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90274,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90275,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90277,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90278,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90280,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90290,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90291,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90292,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90293,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90294,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90295,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90296,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90301,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90302,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90303,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90304,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90305,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90306,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90307,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90308,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90309,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90310,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90311,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90312,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90313,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90397,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90398,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90401,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90402,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90403,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90404,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90405,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90406,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90407,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90408,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90409,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90410,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90411,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90501,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90502,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90503,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90504,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90505,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90506,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90507,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90508,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90509,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90510,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90601,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90602,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90603,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90604,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90605,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90606,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90607,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90608,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90609,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90610,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90612,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90620,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90621,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90622,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90623,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90624,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90630,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90631,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90632,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90633,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90637,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90638,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90639,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90640,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90650,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90651,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90652,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90659,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90660,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90661,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90662,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90665,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90670,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90671,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 90680,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90701,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90702,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90703,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90704,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90706,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90707,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90710,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90711,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90712,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90713,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90714,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90715,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90716,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90717,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90720,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90721,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90723,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90731,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90732,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90733,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90734,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90740,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90742,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90743,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90744,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90745,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90746,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90747,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90748,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90749,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90801,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90802,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90803,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90804,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90805,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90806,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90807,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90808,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90809,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90810,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90813,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90814,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90815,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90822,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90831,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90832,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90833,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90834,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90835,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90840,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90842,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90844,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90845,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90846,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90847,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90848,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 90853,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 90888,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 91001,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91003,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91006,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91007,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91009,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91010,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91011,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91012,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91016,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91017,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91020,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91021,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91023,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 91024,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91025,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91030,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91031,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91040,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 91041,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91042,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 91043,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91046,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91050,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91051,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91066,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91077,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91101,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91102,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91103,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91104,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91105,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91106,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91107,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91108,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91109,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91110,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91114,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91115,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91116,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91117,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91118,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91121,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91123,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91124,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91125,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91126,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91129,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91131,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91175,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91182,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91184,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91185,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91186,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91187,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91188,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91189,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91191,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91201,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91202,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91203,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91204,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91205,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91206,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91207,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91208,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91209,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91210,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91214,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91221,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91222,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91224,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91225,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91226,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91301,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91302,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91303,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91304,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91305,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91306,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91307,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91308,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91309,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91310,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91311,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91312,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91313,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91316,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91319,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91320,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 91321,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91322,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91324,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91325,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91326,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91327,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91328,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91329,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91330,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91331,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91333,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91334,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91335,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91337,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91340,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91341,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91342,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91343,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91344,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91345,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91346,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91350,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91351,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91352,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91353,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91354,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91355,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91356,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91357,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91358,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91359,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91360,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91361,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91362,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91363,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91364,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91365,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91367,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91371,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91372,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91376,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91377,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91380,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 91381,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91382,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91383,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91384,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91385,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91386,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91388,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91390,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 91392,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91393,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91394,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91395,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91396,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91399,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91401,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91402,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91403,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91404,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91405,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91406,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91407,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91408,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91409,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91410,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91411,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91412,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91413,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91416,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91423,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91426,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91436,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91470,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91482,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91495,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91496,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91497,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91499,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91501,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91502,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91503,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91504,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91505,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91506,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91507,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91508,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91510,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91521,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91522,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91523,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91526,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91601,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91602,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91603,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91604,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91605,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91606,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91607,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91608,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91609,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91610,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91611,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91612,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91614,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91615,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91616,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91617,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91618,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91701,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91702,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91706,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91708,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91709,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91710,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91711,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91714,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91715,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91716,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91718,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91719,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91720,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91722,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91723,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91724,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91729,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91730,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91731,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91732,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91733,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91734,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91735,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91737,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91739,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91740,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91741,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91743,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91744,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91745,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91746,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91747,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91748,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91749,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91750,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91752,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91754,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91755,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91756,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91758,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91759,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 91760,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91761,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91762,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91763,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91764,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91765,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91766,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91767,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91768,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91769,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91770,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91771,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91772,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91773,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91775,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91776,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91778,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91780,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91784,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91785,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91786,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91788,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91789,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91790,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91791,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91792,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91793,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91795,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91797,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91798,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91799,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91801,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91802,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91803,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91804,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91841,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91896,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91899,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 91901,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91902,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91903,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91905,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 91906,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 91908,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91909,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91910,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91911,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91912,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91913,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91914,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91915,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91916,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 91917,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91921,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91931,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 91932,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91933,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91934,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 91935,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91941,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91942,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91943,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91944,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91945,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91946,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91947,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91948,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 91950,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91951,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 91962,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 91963,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 91976,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91977,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91978,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91979,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 91980,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 91987,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 91990,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92003,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92004,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92007,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92008,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92009,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92013,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92014,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92018,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92019,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92020,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92021,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92022,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92023,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92024,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92025,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92026,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92027,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92028,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92029,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92030,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92033,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92036,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92037,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92038,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92039,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92040,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92046,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92049,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92051,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92052,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92054,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92055,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92056,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92057,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92058,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92059,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92060,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92061,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92064,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92065,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92066,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92067,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92068,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92069,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92070,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92071,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92072,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92074,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92075,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92078,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92079,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92081,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92082,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92083,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92084,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92085,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92086,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92088,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92090,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92091,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92092,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92093,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92096,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92101,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92102,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92103,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92104,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92105,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92106,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92107,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92108,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92109,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92110,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92111,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92112,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92113,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92114,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92115,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92116,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92117,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92118,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92119,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92120,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92121,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92122,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92123,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92124,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92126,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92127,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92128,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92129,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92130,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92131,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92132,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92133,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92134,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92135,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92136,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92137,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92138,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92139,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92140,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92142,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92143,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92145,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92147,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92149,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92150,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92152,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92153,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92154,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92155,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92158,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92159,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92160,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92161,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92162,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92163,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92164,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92165,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92166,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92167,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92168,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92169,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92170,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92171,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92172,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92173,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92174,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92175,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92176,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92177,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92178,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92179,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92182,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92184,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92186,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92187,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92190,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92191,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92192,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92193,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92194,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92195,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92196,
+    "Building CZ": 7
+  },
+  {
+    "Zip Code": 92197,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92198,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92199,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92201,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92202,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92203,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92210,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92211,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92220,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92222,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92223,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92225,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92226,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92227,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92230,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92231,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92232,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92233,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92234,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92235,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92236,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92239,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92240,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92241,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92242,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92243,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92244,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92249,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92250,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92251,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92252,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92253,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92254,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92255,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92256,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92257,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92258,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92259,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92260,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92261,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92262,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92263,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92264,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92266,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92267,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92268,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92270,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92273,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92274,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92275,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92276,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92277,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92278,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92280,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92281,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92282,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92283,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92284,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92285,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92286,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92292,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92301,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92304,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92305,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92307,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92308,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92309,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92310,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92311,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92312,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92313,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92314,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92315,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92316,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92317,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92318,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92320,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92321,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92322,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92323,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92324,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92325,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92326,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92327,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92328,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92329,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92332,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92333,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92334,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92335,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92336,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92337,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92338,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92339,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92340,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92341,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92342,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92345,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92346,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92347,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92350,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92352,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92354,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92356,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92357,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92358,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92359,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92363,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92364,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92365,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92366,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92368,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92369,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92371,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92372,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92373,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92374,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92375,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92376,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92377,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92378,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92382,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92384,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92385,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92386,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92389,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92391,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92392,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92393,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92394,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92397,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92398,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 92399,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92401,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92402,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92403,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92404,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92405,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92406,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92407,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92408,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92410,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92411,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92412,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92413,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92414,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92415,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92416,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92418,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92420,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92423,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92424,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92427,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92501,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92502,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92503,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92504,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92505,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92506,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92507,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92508,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92509,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92513,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92514,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92515,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92516,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92517,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92518,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92519,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92521,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92522,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92530,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92531,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92532,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92536,
+    "Building CZ": 15
+  },
+  {
+    "Zip Code": 92539,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92543,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92544,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92545,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92546,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92548,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92549,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92551,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92552,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92553,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92554,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92555,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92556,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92557,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92561,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 92562,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92563,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92564,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92567,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92570,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92571,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92572,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92581,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92582,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92583,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92584,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92585,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92586,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92587,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92589,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92590,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92591,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92592,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92593,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92595,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92596,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92599,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92602,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92603,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92604,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92605,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92606,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92607,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92610,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92612,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92614,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92615,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92616,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92618,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92619,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92620,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92623,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92624,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92625,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92626,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92627,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92628,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92629,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92630,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92646,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92647,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92648,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92649,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92650,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92651,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92652,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92653,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92654,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92655,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92656,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92657,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92658,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92659,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92660,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92661,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92662,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92663,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92672,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92673,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92674,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92675,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92676,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92677,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92678,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92679,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92683,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92684,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92685,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92688,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92690,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92691,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92692,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92693,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92694,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92697,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92698,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92701,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92702,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92703,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92704,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92705,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92706,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92707,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92708,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92709,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92710,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92711,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92712,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92728,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92735,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92780,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92781,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92782,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92799,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92801,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92802,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92803,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92804,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92805,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92806,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92807,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92808,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92811,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92812,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92814,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92815,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92816,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92817,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92821,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92822,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92823,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92825,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92831,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92832,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92833,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92834,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92835,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92836,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92837,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92838,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92840,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92841,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92842,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92843,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92844,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 92845,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92846,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92850,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92856,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92857,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92859,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92860,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92861,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92862,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92863,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92864,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92865,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92866,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92867,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92868,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92869,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92870,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92871,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92877,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92878,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92879,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92880,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92881,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92882,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92883,
+    "Building CZ": 10
+  },
+  {
+    "Zip Code": 92885,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92886,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92887,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 92899,
+    "Building CZ": 8
+  },
+  {
+    "Zip Code": 93001,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93002,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93003,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93004,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93005,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93006,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93007,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93009,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93010,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93011,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93012,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93013,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93014,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93015,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93016,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93020,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93021,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93022,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93023,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93024,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93030,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93031,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93032,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93033,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93034,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93035,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93040,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93041,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93042,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93043,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93044,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93060,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93061,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93062,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93063,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93064,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93065,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93066,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93067,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93093,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93094,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93099,
+    "Building CZ": 9
+  },
+  {
+    "Zip Code": 93101,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93102,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93103,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93105,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93106,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93107,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93108,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93109,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93110,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93111,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93116,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93117,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93118,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93120,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93121,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93130,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93140,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93150,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93160,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93190,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93199,
+    "Building CZ": 6
+  },
+  {
+    "Zip Code": 93201,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93202,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93203,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93204,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93205,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93206,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93207,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93208,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93210,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93212,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93215,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93216,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93218,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93219,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93220,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93221,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93222,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93223,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93224,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93225,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93226,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93227,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93230,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93231,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93232,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93234,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93235,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93237,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93238,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93239,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93240,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93241,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93242,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93243,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93244,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93245,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93246,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93247,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93249,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93250,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93251,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93252,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93254,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93255,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93256,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93257,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93258,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93260,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93261,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93262,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93263,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93265,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93266,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93267,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93268,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93270,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93271,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93272,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93274,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93275,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93276,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93277,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93278,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93279,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93280,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93282,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93283,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93285,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93286,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93287,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93291,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93292,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93301,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93302,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93303,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93304,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93305,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93306,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93307,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93308,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93309,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93311,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93312,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93313,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93314,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93380,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93381,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93382,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93383,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93384,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93385,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93386,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93387,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93388,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93389,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93390,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93401,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93402,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93403,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93405,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93406,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93407,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93408,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93409,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93410,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93412,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93420,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93421,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93422,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93423,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93424,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93426,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93427,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93428,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93429,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93430,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93432,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93433,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93434,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93435,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93436,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93437,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93438,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93440,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93441,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93442,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93443,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93444,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93445,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93446,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93447,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93448,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93449,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93450,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93451,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93452,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93453,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93454,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93455,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93456,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93457,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93458,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93460,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93461,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93463,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93464,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93465,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93483,
+    "Building CZ": 5
+  },
+  {
+    "Zip Code": 93501,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93502,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93504,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93505,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93510,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93512,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93513,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93514,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93515,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93516,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93517,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93518,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93519,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93522,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93523,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93524,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93526,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93527,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93528,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93529,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93530,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93531,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93532,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93534,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93535,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93536,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93539,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93541,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93542,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93543,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93544,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93545,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93546,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93549,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93550,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93551,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93552,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93553,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93554,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93555,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93556,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93558,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93560,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93561,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93562,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93563,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93581,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93584,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93586,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93590,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93591,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93592,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93596,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93599,
+    "Building CZ": 14
+  },
+  {
+    "Zip Code": 93601,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93602,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93603,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93604,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93605,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93606,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93607,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93608,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93609,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93610,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93611,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93612,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93613,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93614,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93615,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93616,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93618,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93619,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93620,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 93621,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93622,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93623,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93624,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93625,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93626,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93627,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93628,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93630,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93631,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93633,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93634,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93635,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 93636,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93637,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93638,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93639,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93640,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93641,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93642,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93643,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93644,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93645,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93646,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93647,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93648,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93649,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93650,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93651,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93652,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93653,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93654,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93656,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93657,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93660,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93661,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 93662,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93664,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93665,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 93666,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93667,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93668,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93669,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 93670,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93673,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93675,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93701,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93702,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93703,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93704,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93705,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93706,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93707,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93708,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93709,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93710,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93711,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93712,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93714,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93715,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93716,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93717,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93718,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93720,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93721,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93722,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93723,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93724,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93725,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93726,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93727,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93728,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93729,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93730,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93737,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93740,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93741,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93744,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93745,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93747,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93750,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93755,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93759,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93760,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93761,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93762,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93764,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93765,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93771,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93772,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93773,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93774,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93775,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93776,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93777,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93778,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93779,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93780,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93782,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93784,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93786,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93790,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93791,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93792,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93793,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93794,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93844,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93888,
+    "Building CZ": 13
+  },
+  {
+    "Zip Code": 93901,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93902,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93905,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93906,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93907,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93908,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93912,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93915,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93920,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93921,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93922,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93923,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93924,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93925,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93926,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93927,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93928,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93930,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93932,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93933,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93940,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93942,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93943,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93944,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93950,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93953,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93954,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 93955,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93960,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 93962,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94002,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94003,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94005,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94010,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94011,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94012,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94014,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94015,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94016,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94017,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94018,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94019,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94020,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94021,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94022,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94023,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94024,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94025,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94026,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94027,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94028,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94029,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94030,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94031,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94035,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94037,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94038,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94039,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94040,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94041,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94042,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94043,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94044,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94045,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94059,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94060,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94061,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94062,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94063,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94064,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94065,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94066,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94067,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94070,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94071,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94074,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94080,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94083,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94085,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94086,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94087,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94088,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94089,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94090,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94096,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94098,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94099,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94101,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94102,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94103,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94104,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94105,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94106,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94107,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94108,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94109,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94110,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94111,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94112,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94114,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94115,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94116,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94117,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94118,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94119,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94120,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94121,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94122,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94123,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94124,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94125,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94126,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94127,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94128,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94129,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94130,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94131,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94132,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94133,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94134,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94135,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94136,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94137,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94138,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94139,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94140,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94141,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94142,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94143,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94144,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94145,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94146,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94147,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94150,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94151,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94152,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94153,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94154,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94155,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94156,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94157,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94158,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94159,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94160,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94161,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94162,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94163,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94164,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94165,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94166,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94167,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94168,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94169,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94170,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94171,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94172,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94175,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94177,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94188,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94203,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94204,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94205,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94206,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94207,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94208,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94209,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94211,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94229,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94230,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94232,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94234,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94235,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94236,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94237,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94239,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94240,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94243,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94244,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94245,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94246,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94247,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94248,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94249,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94250,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94252,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94253,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94254,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94256,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94257,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94258,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94259,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94261,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94262,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94263,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94267,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94268,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94269,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94271,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94273,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94274,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94277,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94278,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94279,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94280,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94282,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94283,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94284,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94285,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94286,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94287,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94288,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94289,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94290,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94291,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94293,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94294,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94295,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94296,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94297,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94298,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94299,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94301,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94302,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94303,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94304,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94305,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94306,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94307,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94308,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94309,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94310,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 94401,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94402,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94403,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94404,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94405,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94406,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94407,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94408,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94409,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94497,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94501,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94502,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94503,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94505,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94506,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94507,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94508,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94509,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94510,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94511,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94512,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94513,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94514,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94515,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94516,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94517,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94518,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94519,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94520,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94521,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94522,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94523,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94524,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94525,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94526,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94527,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94528,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94529,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94530,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94531,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94533,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94534,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94535,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94536,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94537,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94538,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94539,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94540,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94541,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94542,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94543,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94544,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94545,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94546,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94547,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94548,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94549,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94550,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94551,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94552,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94553,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94555,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94556,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94557,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94558,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94559,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94560,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94561,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94562,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94563,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94564,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94565,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94566,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94567,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94568,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94569,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94570,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94571,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94572,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94573,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94574,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94575,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94576,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94577,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94578,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94579,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94580,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94581,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94582,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94583,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94585,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94586,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94587,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94588,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94589,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94590,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94591,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94592,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94595,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94596,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94597,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94598,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 94599,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94601,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94602,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94603,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94604,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94605,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94606,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94607,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94608,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94609,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94610,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94611,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94612,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94613,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94614,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94615,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94617,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94618,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94619,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94620,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94621,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94623,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94624,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94625,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94626,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94627,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94643,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94649,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94659,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94660,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94661,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94662,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94666,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94701,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94702,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94703,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94704,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94705,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94706,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94707,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94708,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94709,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94710,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94712,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94720,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94801,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94802,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94803,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94804,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94805,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94806,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94807,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94808,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94820,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94850,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94901,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94903,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94904,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94912,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94913,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94914,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94915,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94920,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94922,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 94923,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 94924,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94925,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94926,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94927,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94928,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94929,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94930,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94931,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94933,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94937,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94938,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94939,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94940,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94941,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94942,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94945,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94946,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94947,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94948,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94949,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94950,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94951,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94952,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94953,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94954,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94955,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94956,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94957,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94960,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94963,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94964,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94965,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94966,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94970,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94971,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94972,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94973,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94974,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94975,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94976,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94977,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 94978,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94979,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94998,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 94999,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95001,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95002,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95003,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95004,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95005,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95006,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95007,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95008,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95009,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95010,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95011,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95012,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95013,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95014,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95015,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95017,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95018,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95019,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95020,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95021,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95023,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95024,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95026,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95030,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95031,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95032,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95033,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95035,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95036,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95037,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95038,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95039,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95041,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95042,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95043,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95044,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95045,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95046,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95050,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95051,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95052,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95053,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95054,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95055,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95056,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95060,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95061,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95062,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95063,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95064,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95065,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95066,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95067,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95070,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95071,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95073,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95075,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95076,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95077,
+    "Building CZ": 3
+  },
+  {
+    "Zip Code": 95101,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95102,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95103,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95106,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95108,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95109,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95110,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95111,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95112,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95113,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95114,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95115,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95116,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95117,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95118,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95119,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95120,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95121,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95122,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95123,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95124,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95125,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95126,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95127,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95128,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95129,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95130,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95131,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95132,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95133,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95134,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95135,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95136,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95137,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95138,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95139,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95140,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95141,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95142,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95148,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95150,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95151,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95152,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95153,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95154,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95155,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95156,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95157,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95158,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95159,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95160,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95161,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95164,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95170,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95171,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95172,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95173,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95190,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95191,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95192,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95193,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95194,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95196,
+    "Building CZ": 4
+  },
+  {
+    "Zip Code": 95201,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95202,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95203,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95204,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95205,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95206,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95207,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95208,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95209,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95210,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95211,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95212,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95213,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95215,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95219,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95220,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95221,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95222,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95223,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95224,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95225,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95226,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95227,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95228,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95229,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95230,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95231,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95232,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95233,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95234,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95236,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95237,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95240,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95241,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95242,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95245,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95246,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95247,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95248,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95249,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95250,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95251,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95252,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95253,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95254,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95255,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95257,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95258,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95267,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95269,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95290,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95296,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95297,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95298,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95301,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95303,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95304,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95305,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95306,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95307,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95309,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95310,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95311,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95312,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95313,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95314,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95315,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95316,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95317,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95318,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95319,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95320,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95321,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95322,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95323,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95324,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95325,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95326,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95327,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95328,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95329,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95330,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95333,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95334,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95335,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95336,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95337,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95338,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95340,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95341,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95342,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95343,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95344,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95345,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95346,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95347,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95348,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95350,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95351,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95352,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95353,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95354,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95355,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95356,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95357,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95358,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95360,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95361,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95363,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95364,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95365,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95366,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95367,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95368,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95369,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95370,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95372,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95373,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95374,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95375,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95376,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95377,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95378,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95379,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95380,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95381,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95382,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95383,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95385,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95386,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95387,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95388,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95389,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95390,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95391,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95397,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95401,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95402,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95403,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95404,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95405,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95406,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95407,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95408,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95409,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95410,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95412,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95415,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95416,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95417,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95418,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95419,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95420,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95421,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95422,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95423,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95424,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95425,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95426,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95427,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95428,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95429,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95430,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95431,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95432,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95433,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95435,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95436,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95437,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95439,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95441,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95442,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95443,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95444,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95445,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95446,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95448,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95449,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95450,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95451,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95452,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95453,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95454,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95456,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95457,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95458,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95459,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95460,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95461,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95462,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95463,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95464,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95465,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95466,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95467,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95468,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95469,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95470,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95471,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95472,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95473,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95476,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95480,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95481,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95482,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95485,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95486,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95487,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95488,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95490,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95492,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95493,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95494,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95497,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95501,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95502,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95503,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95511,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95514,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95518,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95519,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95521,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95524,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95525,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95526,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95527,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95528,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95531,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95532,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95534,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95536,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95537,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95538,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95540,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95542,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95543,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95545,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95546,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95547,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95548,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95549,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95550,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95551,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95552,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95553,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95554,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95555,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95556,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95558,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95559,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95560,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95562,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95563,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95564,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95565,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95567,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95568,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95569,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95570,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95571,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95573,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95585,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95587,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95589,
+    "Building CZ": 1
+  },
+  {
+    "Zip Code": 95595,
+    "Building CZ": 2
+  },
+  {
+    "Zip Code": 95601,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95602,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95603,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95604,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95605,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95606,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95607,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95608,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95609,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95610,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95611,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95612,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95613,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95614,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95615,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95616,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95617,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95618,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95619,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95620,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95621,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95623,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95624,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95625,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95626,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95627,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95628,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95629,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95630,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95631,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95632,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95633,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95634,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95635,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95636,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95637,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95638,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95639,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95640,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95641,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95642,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95644,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95645,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95646,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95648,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95650,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95651,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95652,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95653,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95654,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95655,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95656,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95658,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95659,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95660,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95661,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95662,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95663,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95664,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95665,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95666,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95667,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95668,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95669,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95670,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95671,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95672,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95673,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95674,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95675,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95676,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95677,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95678,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95679,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95680,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95681,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95682,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95683,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95684,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95685,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95686,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95687,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95688,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95689,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95690,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95691,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95692,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95693,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95694,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95695,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95696,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95697,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95698,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95699,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95701,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95703,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95709,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95712,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95713,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95714,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95715,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95717,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95720,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95721,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95722,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95724,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95726,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95728,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95735,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95736,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95741,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95742,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95743,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95746,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95747,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95757,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95758,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95759,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95762,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95763,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95765,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95776,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95798,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95799,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95811,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95812,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95813,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95814,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95815,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95816,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95817,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95818,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95819,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95820,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95821,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95822,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95823,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95824,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95825,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95826,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95827,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95828,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95829,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95830,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95831,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95832,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95833,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95834,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95835,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95836,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95837,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95838,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95840,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95841,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95842,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95843,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95851,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95852,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95853,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95857,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95860,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95864,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95865,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95866,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95867,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95873,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95887,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95894,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95899,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95901,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95903,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95910,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95912,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95913,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95914,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95915,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95916,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95917,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95918,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95919,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95920,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95922,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95923,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95924,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95925,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95926,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95927,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95928,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95929,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95930,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95931,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95932,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95934,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95935,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95936,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95937,
+    "Building CZ": 12
+  },
+  {
+    "Zip Code": 95938,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95939,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95940,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95941,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95942,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95943,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95944,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95945,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95946,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95947,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95948,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95949,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95950,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95951,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95953,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95954,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95955,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95956,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95957,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95958,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95959,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95960,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95961,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95962,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95963,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95965,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95966,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95967,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95968,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95969,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95970,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95971,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95972,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95973,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95974,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95975,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95976,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95977,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95978,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95979,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95980,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95981,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95982,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95983,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95984,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95986,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 95987,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95988,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95991,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95992,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 95993,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96001,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96002,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96003,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96006,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96007,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96008,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96009,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96010,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96011,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96013,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96014,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96015,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96016,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96017,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96019,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96020,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96021,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96022,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96023,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96024,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96025,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96027,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96028,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96029,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96031,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96032,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96033,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96034,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96035,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96037,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96038,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96039,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96040,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96041,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96044,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96046,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96047,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96048,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96049,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96050,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96051,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96052,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96053,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96054,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96055,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96056,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96057,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96058,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96059,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96061,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96062,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96063,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96064,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96065,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96067,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96068,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96069,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96070,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96071,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96073,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96074,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96075,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96076,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96078,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96079,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96080,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96084,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96085,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96086,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96087,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96088,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96089,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96090,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96091,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96092,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96093,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96094,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96095,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96096,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96097,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96099,
+    "Building CZ": 11
+  },
+  {
+    "Zip Code": 96101,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96103,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96104,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96105,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96106,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96107,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96108,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96109,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96110,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96111,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96112,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96113,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96114,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96115,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96116,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96117,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96118,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96119,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96120,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96121,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96122,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96123,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96124,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96125,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96126,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96127,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96128,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96129,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96130,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96132,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96133,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96134,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96135,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96136,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96137,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96140,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96141,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96142,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96143,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96145,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96146,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96148,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96150,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96151,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96152,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96154,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96155,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96156,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96157,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96158,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96160,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96161,
+    "Building CZ": 16
+  },
+  {
+    "Zip Code": 96162,
+    "Building CZ": 16
+  }
+]
