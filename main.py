@@ -223,7 +223,7 @@ def main():
     # Calculate total system size before exemptions
     total_full_kw = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone)[0] 
                        for btype, prop in zip(building_types, proportions))
-    
+
     # Check PV system exemption for total system
     if cfa < 2000:
         print("Warning: PV system exempt: Total CFA < 2000 ft²")
@@ -249,6 +249,11 @@ def main():
 
     # Step 4: BESS Power Capacity
     kw_batt = calculate_bess_power_capacity(kwh_batt)
+
+    if kwh_batt < 10:
+        print("BESS system exempt: Energy capacity < 10 kWh")
+        kwh_batt = 0
+        kw_batt = 0
 
     # Output
     print("\n--- Title 24 2025 System Sizing ---")
