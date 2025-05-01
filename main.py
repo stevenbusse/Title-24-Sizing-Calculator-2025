@@ -116,14 +116,16 @@ def calculate_pv_system_size(cfa, building_type, climate_zone, sara=None, roof_s
         kw_pv_dc = min(kw_pv_dc, sara_limit_kw)
 
     # Additional PV exemptions
+    pv_exempt_msg = ""
     if sara is not None and sara < 80:
-        return 0, "PV system exempt: SARA < 80 ft²"
-    if sara is not None and sara < (0.03 * cfa):
-        return 0, "PV system exempt: SARA < 3% of CFA"
-    if kw_pv_dc < 4:
-        return 0, "PV system exempt: PV capacity < 4 kWdc"
+        pv_exempt_msg = "PV system exempt: SARA < 80 ft²"
+    elif sara is not None and sara < (0.03 * cfa):
+        pv_exempt_msg = "PV system exempt: SARA < 3% of CFA"
+    elif kw_pv_dc < 4:
+        pv_exempt_msg = "PV system exempt: PV capacity < 4 kWdc"
 
-    return kw_pv_dc, ""
+
+    return kw_pv_dc, pv_exempt_msg
 
 
 def calculate_bess_energy_capacity(cfa, building_type, climate_zone, c, sara, kw_pv_dc, full_kw_pv_dc):
@@ -160,7 +162,7 @@ def main():
     num_types = int(input("Enter number of different building types (1 or more): "))
     building_types = []
     proportions = []
-    
+
     total_proportion = 0
     if num_types > 0:
         if num_types == 1:
@@ -178,16 +180,16 @@ def main():
                 while building_type not in table_140_10_A.keys():
                     print("Invalid building type. Please enter a valid building type from the table.")
                     building_type = input("Enter building type (match table name): ")
-                
+
                 proportion = float(input(f"Enter proportion for {building_type} (0-1): "))
                 while proportion < 0 or proportion > 1:
                     print("Invalid proportion. Please enter a value between 0 and 1.")
                     proportion = float(input(f"Enter proportion for {building_type} (0-1): "))
-                
+
                 total_proportion += proportion
                 building_types.append(building_type)
                 proportions.append(proportion)
-        
+
         if abs(total_proportion - 1.0) > 0.001:
             print("Warning: Proportions do not sum to 1. Normalizing values...")
             proportions = [p/total_proportion for p in proportions]
@@ -200,12 +202,12 @@ def main():
         proportions = [1.0]
     with open('climate_zones.json', 'r') as f:
         zipcode_to_zone = json.load(f)
-    
+
     zipcode = input("Enter zipcode: ")
     while str(zipcode) not in [str(entry["Zip Code"]) for entry in zipcode_to_zone]:
         print("Invalid or unsupported zipcode. Please enter a valid zipcode.")
         zipcode = input("Enter zipcode: ")
-    
+
     climate_zone = next(entry["Building CZ"] for entry in zipcode_to_zone if str(entry["Zip Code"]) == str(zipcode))
     c = float(input("Enter BESS round-trip efficiency (e.g. 0.90): "))
 
@@ -214,13 +216,12 @@ def main():
     kw_pv_dc_installed = 0
     kwh_batt = 0
     bess_exempt_msg = None
-    
+
     for building_type, proportion in zip(building_types, proportions):
         # Step 1: Full PV capacity (from Eq. 140.10-A)
         type_full_kw, pv_exempt_msg = calculate_pv_system_size(cfa * proportion, building_type, climate_zone)
         if pv_exempt_msg:
             print(f"Warning for {building_type}: {pv_exempt_msg}")
-            continue
         full_kw_pv_dc += type_full_kw
 
         # Step 2: Final installed PV (adjusted by SARA if provided)
@@ -249,6 +250,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
