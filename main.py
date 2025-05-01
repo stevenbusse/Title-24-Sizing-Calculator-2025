@@ -156,6 +156,7 @@ def calculate_bess_power_capacity(kwh_batt):
 def main():
     # User inputs
     cfa = float(input("Enter conditioned floor area (CFA) in ft²: "))
+    sara = float(input("Enter SARA in ft²: "))
     multiple_types = input("Are there multiple building types? (yes/no): ").lower().strip() == 'yes'
     
     building_types = []
@@ -201,7 +202,6 @@ def main():
     
     climate_zone = next(entry["Building CZ"] for entry in zipcode_to_zone if str(entry["Zip Code"]) == str(zipcode))
     c = float(input("Enter BESS round-trip efficiency (e.g. 0.90): "))
-    sara = float(input("Enter SARA in ft²: "))
 
     # Calculate weighted results for each building type
     full_kw_pv_dc = 0
