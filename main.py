@@ -214,29 +214,35 @@ def main():
     climate_zone = next(entry["Building CZ"] for entry in zipcode_to_zone if str(entry["Zip Code"]) == str(zipcode))
     c = float(input("Enter BESS round-trip efficiency (e.g. 0.90): "))
 
-    # Calculate weighted results for each building type
+    # Calculate total system requirements
     full_kw_pv_dc = 0
     kw_pv_dc_installed = 0
     kwh_batt = 0
     bess_exempt_msg = None
 
-    for building_type, proportion in zip(building_types, proportions):
-        # Step 1: Full PV capacity (from Eq. 140.10-A)
-        type_full_kw, pv_exempt_msg = calculate_pv_system_size(cfa * proportion, building_type, climate_zone)
-        if pv_exempt_msg:
-            print(f"Warning for {building_type}: {pv_exempt_msg}")
-        full_kw_pv_dc += type_full_kw
+    # Calculate total system size before exemptions
+    total_full_kw = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone)[0] 
+                       for btype, prop in zip(building_types, proportions))
+    
+    # Check PV system exemption for total system
+    if cfa < 2000:
+        print("Warning: PV system exempt: Total CFA < 2000 ft²")
+        full_kw_pv_dc = 0
+        kw_pv_dc_installed = 0
+    else:
+        # Calculate installed PV considering SARA
+        kw_pv_dc_installed = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone, sara, "Low Slope")[0] 
+                                for btype, prop in zip(building_types, proportions))
+        full_kw_pv_dc = total_full_kw
 
-        # Step 2: Final installed PV (adjusted by SARA if provided)
-        type_installed_kw, _ = calculate_pv_system_size(cfa * proportion, building_type, climate_zone, sara, "Low Slope")
-        kw_pv_dc_installed += type_installed_kw
-
-        # Step 3: BESS Energy Capacity
-        type_kwh_batt, bess_exempt_msg = calculate_bess_energy_capacity(
-            cfa * proportion, building_type, climate_zone, c, sara, type_installed_kw, type_full_kw
-        )
-        if not bess_exempt_msg:
-            kwh_batt += type_kwh_batt
+    # Calculate BESS requirements if PV system is required
+    if kw_pv_dc_installed > 0:
+        for building_type, proportion in zip(building_types, proportions):
+            type_kwh_batt, type_bess_msg = calculate_bess_energy_capacity(
+                cfa * proportion, building_type, climate_zone, c, sara, kw_pv_dc_installed, full_kw_pv_dc
+            )
+            if not type_bess_msg:
+                kwh_batt += type_kwh_batt
     if bess_exempt_msg:
         print(bess_exempt_msg)
         return
