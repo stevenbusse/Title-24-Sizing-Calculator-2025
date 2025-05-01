@@ -162,23 +162,30 @@ def main():
     proportions = []
     
     if num_types > 0:
-        total_proportion = 0
-        
-        for i in range(num_types):
-            print(f"\nBuilding Type {i + 1}:")
+        if num_types == 1:
             building_type = input("Enter building type (match table name): ")
             while building_type not in table_140_10_A.keys():
                 print("Invalid building type. Please enter a valid building type from the table.")
                 building_type = input("Enter building type (match table name): ")
-            
-            proportion = float(input(f"Enter proportion for {building_type} (0-1): "))
-            while proportion < 0 or proportion > 1:
-                print("Invalid proportion. Please enter a value between 0 and 1.")
+            building_types = [building_type]
+            proportions = [1.0]
+        else:
+            total_proportion = 0
+            for i in range(num_types):
+                print(f"\nBuilding Type {i + 1}:")
+                building_type = input("Enter building type (match table name): ")
+                while building_type not in table_140_10_A.keys():
+                    print("Invalid building type. Please enter a valid building type from the table.")
+                    building_type = input("Enter building type (match table name): ")
+                
                 proportion = float(input(f"Enter proportion for {building_type} (0-1): "))
-            
-            total_proportion += proportion
-            building_types.append(building_type)
-            proportions.append(proportion)
+                while proportion < 0 or proportion > 1:
+                    print("Invalid proportion. Please enter a value between 0 and 1.")
+                    proportion = float(input(f"Enter proportion for {building_type} (0-1): "))
+                
+                total_proportion += proportion
+                building_types.append(building_type)
+                proportions.append(proportion)
         
         if abs(total_proportion - 1.0) > 0.001:
             print("Warning: Proportions do not sum to 1. Normalizing values...")
