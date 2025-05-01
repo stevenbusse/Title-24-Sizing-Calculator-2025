@@ -164,11 +164,11 @@ def main():
         zipcode_to_zone = json.load(f)
     
     zipcode = input("Enter zipcode: ")
-    while zipcode not in zipcode_to_zone:
+    while str(zipcode) not in [str(entry["Zip Code"]) for entry in zipcode_to_zone]:
         print("Invalid or unsupported zipcode. Please enter a valid zipcode.")
         zipcode = input("Enter zipcode: ")
     
-    climate_zone = zipcode_to_zone[zipcode]
+    climate_zone = next(entry["Building CZ"] for entry in zipcode_to_zone if str(entry["Zip Code"]) == str(zipcode))
     roof_slope = input("Enter roof slope (Low Slope/Steep Slope): ").strip()
     while roof_slope.lower() not in ["low slope", "steep slope"]:
         print("Invalid roof slope. Please enter 'Low Slope' or 'Steep Slope'.")
