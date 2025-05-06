@@ -1,0 +1,6 @@
+/ (root)
+├── main.py                 ← Flask backend with `/api/calculate`
+├── index.html              ← UI with form & results
+├── script.js               ← JS to collect input and call backend
+├── climate_zones.json      ← ZIP code to climate zone mapping
+├── requirements.txt        ← Flask + CORS

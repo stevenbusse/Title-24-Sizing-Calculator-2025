@@ -1,6 +1,10 @@
+import streamlit as st
 import json
 import pandas as pd
+from math import sqrt
 
+with open("climate_zones.json", "r") as f:
+    zipcode_to_zone = json.load(f)
 
 # Define tables 140.10-A and 140.10-B as dictionaries
 table_140_10_A = {
@@ -157,6 +161,63 @@ def calculate_bess_power_capacity(kwh_batt):
     """
     return kwh_batt / 4
 
+st.set_page_config(page_title="Title 24 PV + BESS Sizing Tool", layout="centered")
+st.title("⚡ Title 24 2025 PV & BESS Sizing Tool")
+
+st.write("This tool estimates required PV and BESS sizes for California energy code compliance.")
+
+# Input: Basic Info
+cfa = st.number_input("Conditioned Floor Area (ft²)", min_value=0.0)
+sara = st.number_input("Solar Access Roof Area (SARA, ft²)", min_value=0.0)
+c = st.number_input("BESS Round-Trip Efficiency (0.85 - 1.0)", min_value=0.5, max_value=1.0, value=0.9)
+
+# Input: Zip Code dropdown
+zip_options = sorted(set(entry["Zip Code"] for entry in zipcode_to_zone))
+zipcode = st.selectbox("Select Zip Code", zip_options)
+climate_zone = next(entry["Building CZ"] for entry in zipcode_to_zone if entry["Zip Code"] == zipcode)
+
+# Input: Building Types
+building_types = list(table_140_10_A.keys())
+num_types = st.selectbox("Number of Building Types", options=[1, 2, 3], index=0)
+
+selected_types = []
+proportions = []
+total_proportion = 0
+
+for i in range(num_types):
+    col1, col2 = st.columns(2)
+    with col1:
+        btype = st.selectbox(f"Building Type {i+1}", building_types, key=f"type_{i}")
+    with col2:
+        prop = st.number_input(f"Proportion of CFA for {btype}", min_value=0.0, max_value=1.0, value=1.0/num_types, key=f"prop_{i}")
+    selected_types.append(btype)
+    proportions.append(prop)
+    total_proportion += prop
+
+if abs(total_proportion - 1.0) > 0.01:
+    st.warning("⚠️ Proportions do not sum to 1. They will be normalized.")
+    proportions = [p/total_proportion for p in proportions]
+
+if st.button("Calculate System Sizes"):
+    full_kw_pv_dc = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone)[0] for btype, prop in zip(selected_types, proportions))
+    kw_pv_dc_installed = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone, sara, "Low Slope")[0] for btype, prop in zip(selected_types, proportions))
+
+    # Handle PV Exemption
+    if kw_pv_dc_installed == 0:
+        st.info("🔌 PV System Exempt")
+    else:
+        # Calculate BESS
+        kwh_batt = 0
+        for btype, prop in zip(selected_types, proportions):
+            cap, msg = calculate_bess_energy_capacity(cfa * prop, btype, climate_zone, c, sara, kw_pv_dc_installed, full_kw_pv_dc)
+            kwh_batt += cap
+
+        kw_batt = calculate_bess_power_capacity(kwh_batt) if kwh_batt >= 10 else 0
+
+        st.subheader("📊 Results")
+        st.metric("Required PV Size (kWdc)", f"{kw_pv_dc_installed:.2f}")
+        st.metric("Required BESS Energy Capacity (kWh)", f"{kwh_batt:.2f}" if kwh_batt else "Exempt")
+        st.metric("Required BESS Power Output (kW)", f"{kw_batt:.2f}" if kw_batt else "Exempt")
 
 def main():
     # User inputs
