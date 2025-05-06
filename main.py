@@ -161,10 +161,24 @@ def calculate_bess_power_capacity(kwh_batt):
     """
     return kwh_batt / 4
 
+
 st.set_page_config(page_title="Title 24 PV + BESS Sizing Tool", layout="centered")
 st.title("⚡ Title 24 2025 PV & BESS Sizing Tool")
 
-st.write("This tool estimates required PV and BESS sizes for California energy code compliance.")
+with st.expander("ℹ️ About This Tool", expanded=False):
+    st.markdown("""
+    This calculator helps estimate required photovoltaic (PV) and battery energy storage system (BESS) sizes
+    for nonresidential buildings in California under **Title 24, Part 6, 2025 Energy Code**.
+
+    It uses Tables 140.10-A and 140.10-B to determine:
+    - Required PV system size based on CFA and climate zone
+    - BESS capacity based on PV size, round-trip efficiency, and building type
+
+    Designed for engineers, architects, and energy consultants.
+    For full code requirements, refer to [CEC Title 24 2025 standards](https://www.energy.ca.gov/programs-and-topics/programs/building-energy-efficiency-standards/2025-building-energy-efficiency).
+    """)
+
+st.caption("Built with ❤️ using Streamlit | Version: May 2025")
 
 # Input: Basic Info
 cfa = st.number_input("Conditioned Floor Area (ft²)", min_value=0.0)
@@ -184,7 +198,7 @@ if zipcode:
 
 # Input: Dynamic list of building types
 building_types = list(table_140_10_A.keys())
-st.subheader("Building Types")
+st.subheader("🏢 Building Types")
 
 bt_container = st.container()
 selected_types = []
@@ -210,7 +224,8 @@ if not proportions_valid:
 # Enable button only if ZIP is valid and proportions are correct
 can_calculate = zipcode_valid and proportions_valid
 
-if st.button("Calculate System Sizes", disabled=not can_calculate):
+st.markdown("---")
+if st.button("📐 Calculate System Sizes", disabled=not can_calculate):
     full_kw_pv_dc = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone)[0] for btype, prop in zip(selected_types, proportions))
     kw_pv_dc_installed = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone, sara, "Low Slope")[0] for btype, prop in zip(selected_types, proportions))
 
@@ -230,7 +245,7 @@ if st.button("Calculate System Sizes", disabled=not can_calculate):
         st.metric("Required PV Size (kWdc)", f"{kw_pv_dc_installed:.2f}")
         st.metric("Required BESS Energy Capacity (kWh)", f"{kwh_batt:.2f}" if kwh_batt else "Exempt")
         st.metric("Required BESS Power Output (kW)", f"{kw_batt:.2f}" if kw_batt else "Exempt")
-        
+
 def main():
     # User inputs
     cfa = float(input("Enter conditioned floor area (CFA) in ft²: "))
