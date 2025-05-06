@@ -171,34 +171,46 @@ cfa = st.number_input("Conditioned Floor Area (ft²)", min_value=0.0)
 sara = st.number_input("Solar Access Roof Area (SARA, ft²)", min_value=0.0)
 c = st.number_input("BESS Round-Trip Efficiency (0.85 - 1.0)", min_value=0.5, max_value=1.0, value=0.9)
 
-# Input: Zip Code dropdown
-zip_options = sorted(set(entry["Zip Code"] for entry in zipcode_to_zone))
-zipcode = st.selectbox("Select Zip Code", zip_options)
-climate_zone = next(entry["Building CZ"] for entry in zipcode_to_zone if entry["Zip Code"] == zipcode)
+# Input: Zip Code (text input instead of dropdown)
+zipcode = st.text_input("Enter Zip Code")
+climate_zone = None
+zipcode_valid = False
+if zipcode:
+    try:
+        climate_zone = next(entry["Building CZ"] for entry in zipcode_to_zone if str(entry["Zip Code"]) == str(zipcode))
+        zipcode_valid = True
+    except StopIteration:
+        st.error("Invalid or unsupported ZIP code.")
 
-# Input: Building Types
+# Input: Dynamic list of building types
 building_types = list(table_140_10_A.keys())
-num_types = st.selectbox("Number of Building Types", options=[1, 2, 3], index=0)
+st.subheader("Building Types")
 
+bt_container = st.container()
 selected_types = []
 proportions = []
 total_proportion = 0
 
-for i in range(num_types):
+num_inputs = st.number_input("Number of Building Types", min_value=1, max_value=50, step=1, value=1)
+for i in range(num_inputs):
     col1, col2 = st.columns(2)
     with col1:
         btype = st.selectbox(f"Building Type {i+1}", building_types, key=f"type_{i}")
     with col2:
-        prop = st.number_input(f"Proportion of CFA for {btype}", min_value=0.0, max_value=1.0, value=1.0/num_types, key=f"prop_{i}")
+        prop = st.number_input(f"Proportion of CFA for {btype}", min_value=0.0, max_value=1.0, value=1.0/num_inputs, key=f"prop_{i}")
     selected_types.append(btype)
     proportions.append(prop)
     total_proportion += prop
 
-if abs(total_proportion - 1.0) > 0.01:
+proportions_valid = abs(total_proportion - 1.0) <= 0.01
+if not proportions_valid:
     st.warning("⚠️ Proportions do not sum to 1. They will be normalized.")
     proportions = [p/total_proportion for p in proportions]
 
-if st.button("Calculate System Sizes"):
+# Enable button only if ZIP is valid and proportions are correct
+can_calculate = zipcode_valid and proportions_valid
+
+if st.button("Calculate System Sizes", disabled=not can_calculate):
     full_kw_pv_dc = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone)[0] for btype, prop in zip(selected_types, proportions))
     kw_pv_dc_installed = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone, sara, "Low Slope")[0] for btype, prop in zip(selected_types, proportions))
 
@@ -218,7 +230,7 @@ if st.button("Calculate System Sizes"):
         st.metric("Required PV Size (kWdc)", f"{kw_pv_dc_installed:.2f}")
         st.metric("Required BESS Energy Capacity (kWh)", f"{kwh_batt:.2f}" if kwh_batt else "Exempt")
         st.metric("Required BESS Power Output (kW)", f"{kw_batt:.2f}" if kw_batt else "Exempt")
-
+        
 def main():
     # User inputs
     cfa = float(input("Enter conditioned floor area (CFA) in ft²: "))
