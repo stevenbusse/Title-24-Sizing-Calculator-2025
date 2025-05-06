@@ -162,89 +162,92 @@ def calculate_bess_power_capacity(kwh_batt):
     return kwh_batt / 4
 
 
-st.set_page_config(page_title="Title 24 PV + BESS Sizing Tool", layout="centered")
-st.title("⚡ Title 24 2025 PV & BESS Sizing Tool")
+st.set_page_config(page_title="Title 24 PV + BESS Sizing Tool", layout="wide")
 
-with st.expander("ℹ️ About This Tool", expanded=False):
+col_info, col_main = st.columns([1, 3])
+
+with col_info:
     st.markdown("""
-    This calculator helps estimate required photovoltaic (PV) and battery energy storage system (BESS) sizes
-    for nonresidential buildings in California under **Title 24, Part 6, 2025 Energy Code**.
+    <div style='background-color:#f0f2f6;padding:1em;border-radius:8px;'>
+    <strong>ℹ️ About This Tool</strong><br><br>
+    This calculator estimates photovoltaic (PV) and battery energy storage system (BESS) sizes for nonresidential buildings under California's **Title 24, Part 6, 2025 Energy Code**.
+    <ul>
+    <li>Uses CFA, ZIP code, and building types</li>
+    <li>Applies Tables 140.10-A & B</li>
+    <li>Flags exemptions automatically</li>
+    </ul>
+    <a href='https://www.energy.ca.gov/programs-and-topics/programs/building-energy-efficiency-standards/2025-building-energy-efficiency' target='_blank'>View official standards ↗</a>
+    </div>
+    """, unsafe_allow_html=True)
 
-    It uses Tables 140.10-A and 140.10-B to determine:
-    - Required PV system size based on CFA and climate zone
-    - BESS capacity based on PV size, round-trip efficiency, and building type
+with col_main:
+    st.title("⚡ Title 24 2025 PV & BESS Sizing Tool")
 
-    Designed for engineers, architects, and energy consultants.
-    For full code requirements, refer to [CEC Title 24 2025 standards](https://www.energy.ca.gov/programs-and-topics/programs/building-energy-efficiency-standards/2025-building-energy-efficiency).
-    """)
+    # Input: Basic Info
+    cfa = st.number_input("Conditioned Floor Area (ft²)", min_value=0.0, step=100.0)
+    sara = st.number_input("Solar Access Roof Area (SARA, ft²)", min_value=0.0, step=10.0)
+    c = st.number_input("BESS Round-Trip Efficiency (0.85 - 1.0)", min_value=0.5, max_value=1.0, value=0.9, step=0.01)
 
-st.caption("Built with ❤️ using Streamlit | Version: May 2025")
+    # Input: Zip Code (text input instead of dropdown)
+    zipcode = st.text_input("Enter Zip Code")
+    climate_zone = None
+    zipcode_valid = False
+    if zipcode:
+        try:
+            climate_zone = next(entry["Building CZ"] for entry in zipcode_to_zone if str(entry["Zip Code"]) == str(zipcode))
+            zipcode_valid = True
+        except StopIteration:
+            st.error("Invalid or unsupported ZIP code.")
 
-# Input: Basic Info
-cfa = st.number_input("Conditioned Floor Area (ft²)", min_value=0.0)
-sara = st.number_input("Solar Access Roof Area (SARA, ft²)", min_value=0.0)
-c = st.number_input("BESS Round-Trip Efficiency (0.85 - 1.0)", min_value=0.5, max_value=1.0, value=0.9)
+    # Input: Dynamic list of building types
+    building_types = list(table_140_10_A.keys())
+    st.subheader("🏢 Building Types")
 
-# Input: Zip Code (text input instead of dropdown)
-zipcode = st.text_input("Enter Zip Code")
-climate_zone = None
-zipcode_valid = False
-if zipcode:
-    try:
-        climate_zone = next(entry["Building CZ"] for entry in zipcode_to_zone if str(entry["Zip Code"]) == str(zipcode))
-        zipcode_valid = True
-    except StopIteration:
-        st.error("Invalid or unsupported ZIP code.")
+    selected_types = []
+    proportions = []
+    total_proportion = 0
 
-# Input: Dynamic list of building types
-building_types = list(table_140_10_A.keys())
-st.subheader("🏢 Building Types")
+    num_inputs = st.number_input("Number of Building Types", min_value=1, max_value=50, step=1, value=1)
+    for i in range(num_inputs):
+        col1, col2 = st.columns(2)
+        with col1:
+            btype = st.selectbox(f"Building Type {i+1}", building_types, key=f"type_{i}")
+        with col2:
+            prop = st.number_input(f"Proportion of CFA for {btype}", min_value=0.0, max_value=1.0, value=1.0/num_inputs, key=f"prop_{i}", step=0.01)
+        selected_types.append(btype)
+        proportions.append(prop)
+        total_proportion += prop
 
-bt_container = st.container()
-selected_types = []
-proportions = []
-total_proportion = 0
+    proportions_valid = abs(total_proportion - 1.0) <= 0.01
+    if not proportions_valid:
+        st.warning("⚠️ Proportions do not sum to 1. They will be normalized.")
+        proportions = [p/total_proportion for p in proportions]
 
-num_inputs = st.number_input("Number of Building Types", min_value=1, max_value=50, step=1, value=1)
-for i in range(num_inputs):
-    col1, col2 = st.columns(2)
-    with col1:
-        btype = st.selectbox(f"Building Type {i+1}", building_types, key=f"type_{i}")
-    with col2:
-        prop = st.number_input(f"Proportion of CFA for {btype}", min_value=0.0, max_value=1.0, value=1.0/num_inputs, key=f"prop_{i}")
-    selected_types.append(btype)
-    proportions.append(prop)
-    total_proportion += prop
+    # Enable button only if ZIP is valid and proportions are correct
+    can_calculate = zipcode_valid and proportions_valid
 
-proportions_valid = abs(total_proportion - 1.0) <= 0.01
-if not proportions_valid:
-    st.warning("⚠️ Proportions do not sum to 1. They will be normalized.")
-    proportions = [p/total_proportion for p in proportions]
+    st.markdown("---")
+    if st.button("📐 Calculate System Sizes", disabled=not can_calculate):
+        full_kw_pv_dc = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone)[0] for btype, prop in zip(selected_types, proportions))
+        kw_pv_dc_installed = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone, sara, "Low Slope")[0] for btype, prop in zip(selected_types, proportions))
 
-# Enable button only if ZIP is valid and proportions are correct
-can_calculate = zipcode_valid and proportions_valid
+        # Handle PV Exemption
+        if kw_pv_dc_installed == 0:
+            st.info("🔌 PV System Exempt")
+        else:
+            # Calculate BESS
+            kwh_batt = 0
+            for btype, prop in zip(selected_types, proportions):
+                cap, msg = calculate_bess_energy_capacity(cfa * prop, btype, climate_zone, c, sara, kw_pv_dc_installed, full_kw_pv_dc)
+                kwh_batt += cap
 
-st.markdown("---")
-if st.button("📐 Calculate System Sizes", disabled=not can_calculate):
-    full_kw_pv_dc = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone)[0] for btype, prop in zip(selected_types, proportions))
-    kw_pv_dc_installed = sum(calculate_pv_system_size(cfa * prop, btype, climate_zone, sara, "Low Slope")[0] for btype, prop in zip(selected_types, proportions))
+            kw_batt = calculate_bess_power_capacity(kwh_batt) if kwh_batt >= 10 else 0
 
-    # Handle PV Exemption
-    if kw_pv_dc_installed == 0:
-        st.info("🔌 PV System Exempt")
-    else:
-        # Calculate BESS
-        kwh_batt = 0
-        for btype, prop in zip(selected_types, proportions):
-            cap, msg = calculate_bess_energy_capacity(cfa * prop, btype, climate_zone, c, sara, kw_pv_dc_installed, full_kw_pv_dc)
-            kwh_batt += cap
+            st.subheader("📊 Results")
+            st.metric("Required PV Size (kWdc)", f"{kw_pv_dc_installed:.2f}")
+            st.metric("Required BESS Energy Capacity (kWh)", f"{kwh_batt:.2f}" if kwh_batt else "Exempt")
+            st.metric("Required BESS Power Output (kW)", f"{kw_batt:.2f}" if kw_batt else "Exempt")
 
-        kw_batt = calculate_bess_power_capacity(kwh_batt) if kwh_batt >= 10 else 0
-
-        st.subheader("📊 Results")
-        st.metric("Required PV Size (kWdc)", f"{kw_pv_dc_installed:.2f}")
-        st.metric("Required BESS Energy Capacity (kWh)", f"{kwh_batt:.2f}" if kwh_batt else "Exempt")
-        st.metric("Required BESS Power Output (kW)", f"{kw_batt:.2f}" if kw_batt else "Exempt")
 
 def main():
     # User inputs
