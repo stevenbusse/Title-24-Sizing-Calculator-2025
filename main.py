@@ -162,22 +162,7 @@ def calculate_bess_power_capacity(kwh_batt):
     return kwh_batt / 4
 
 
-st.set_page_config(page_title="Title 24 PV + BESS Sizing Tool", layout="wide")
-
-with st.sidebar:
-    st.markdown("""
-    ### ℹ️ About This Tool
-    
-    This calculator estimates photovoltaic (PV) and battery energy storage system (BESS) sizes for nonresidential buildings under California's **Title 24, Part 6, 2025 Energy Code**.
-
-    - Uses CFA, ZIP code, and building types
-    - Applies Tables 140.10-A & B
-    - Flags exemptions automatically
-
-    [View official standards ↗](https://www.energy.ca.gov/programs-and-topics/programs/building-energy-efficiency-standards/2025-building-energy-efficiency)
-    """)
-
-st.title("⚡ Title 24 2025 PV & BESS Sizing Tool")
+sst.title("⚡ Title 24 2025 PV & BESS Sizing Tool")
 
 # Input: Basic Info
 cfa = st.number_input("Conditioned Floor Area (ft²)", min_value=0.0, step=100.0)
@@ -243,6 +228,15 @@ if st.button("📐 Calculate System Sizes", disabled=not can_calculate):
         st.metric("Required PV Size (kWdc)", f"{kw_pv_dc_installed:.2f}")
         st.metric("Required BESS Energy Capacity (kWh)", f"{kwh_batt:.2f}" if kwh_batt else "Exempt")
         st.metric("Required BESS Power Output (kW)", f"{kw_batt:.2f}" if kw_batt else "Exempt")
+
+        st.markdown("---")
+        st.markdown("""
+        #### Need a quote or help specifying a BESS?
+        If you'd like help sizing a system, specifying compatible components, or getting a quote, feel free to contact our team:
+
+        📩 **Quotes** — [quotes@renewablenergys.com](mailto:quotes@renewablenergys.com)  
+        🛠 **Technical Help** — [info@renewablenergys.com](mailto:info@renewablenergys.com)
+        """)
 
 
 def main():
