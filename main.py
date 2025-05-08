@@ -162,7 +162,7 @@ def calculate_bess_power_capacity(kwh_batt):
     return kwh_batt / 4
 
 
-sst.title("⚡ Title 24 2025 PV & BESS Sizing Tool")
+st.title("⚡ Title 24 2025 PV & BESS Sizing Tool")
 
 # Input: Basic Info
 cfa = st.number_input("Conditioned Floor Area (ft²)", min_value=0.0, step=100.0)
